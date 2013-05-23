@@ -1,5 +1,14 @@
 #!/usr/bin/make -f
 
+SOURCEFOLDERS=whonix_shared whonix_gateway whonix_workstation
+
+# Generally exclude files matching the regular expression,
+# NOTE: if the excluded file(s) result in an empty directory, this
+#       directory is also excluded at all
+#
+# EXCLUDE=.*\(\.directory\)\|.*\(\.bashrc\)\|.*\(timesync\.desktop\)
+EXCLUDE=.*\(\.directory\)
+
 #export DH_VERBOSE=1
 
 clean:
@@ -20,6 +29,7 @@ binary-arch:
 binary-indep: build install
 	dh_testdir
 	dh_testroot
+	dh_installdebconf
 	dh_installchangelogs
 	dh_installdocs
 	dh_gencontrol
@@ -35,14 +45,12 @@ install: build
 	dh_prep
 	dh_installdirs
 
-	mkdir -p $(CURDIR)/debian/tmp/whonix_shared
-	cp -r $(CURDIR)/whonix_shared/ $(CURDIR)/debian/tmp
+	mkdir -p $(CURDIR)/debian/tmp
 	
-	mkdir -p $(CURDIR)/debian/tmp/whonix_gateway
-	cp -r $(CURDIR)/whonix_gateway/ $(CURDIR)/debian/tmp
-	
-	mkdir -p $(CURDIR)/debian/tmp/whonix_workstation
-	cp -r $(CURDIR)/whonix_workstation/ $(CURDIR)/debian/tmp
+	for sf in $(SOURCEFOLDERS); do \
+		find $$sf/ -not -regex '$(EXCLUDE)$$' -type f -exec cp -p --parents {} \
+			$(CURDIR)/debian/tmp \; ; \
+	done
 
 	if [ ! -f $(CURDIR)/debian/copyright ]; then \
 		cp $(CURDIR)/LICENSE $(CURDIR)/debian/copyright; \
