@@ -1,2 +1,4 @@
 #!/bin/bash
-sudo -u debian-tor /usr/bin/arm 
+set -x
+sudo -u debian-tor /usr/bin/arm ${1+"$@"}
+exit $?
