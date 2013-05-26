@@ -1,4 +1,11 @@
+#!/bin/bash
+
 ## Whonix /etc/grub.d/50_whonix
+
+## This is not functional yet.
+## Help welcome.
+## See design notes.
+## https://sourceforge.net/p/whonix/wiki/Design-Shared/#boot-manager-configuration
 
 ##############################
 ## Worked on Ubuntu Precise. #

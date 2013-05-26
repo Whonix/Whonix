@@ -21,6 +21,11 @@ case $skip_scripts in
                     ;;
 esac
 
+## This is not functional yet.
+## Help welcome.
+## See design notes.
+## https://sourceforge.net/p/whonix/wiki/Design-Shared/#boot-manager-configuration
+
 echo "
 ## For more verbose output while booting, to show the system does not hang,
 ## GRUB_CMDLINE_LINUX_DEFAULT="" should get appended to grub,
