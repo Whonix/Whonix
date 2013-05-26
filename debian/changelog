@@ -1,0 +1,6 @@
+whonix (0.0) UNRELEASED; urgency=low
+
+  * Initial release.
+  * Adapted debian/control to changes made by adrelanos
+
+ -- Heiko Schäfer <heiko@rangun.de>  Tue, 21 May 2013 07:24:04 +0200

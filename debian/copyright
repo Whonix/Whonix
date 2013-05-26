@@ -1,0 +1,319 @@
+#############################################################################
+# Whonix license file
+#############################################################################
+
+
+
+*****************************************************************************
+* Whonix source code license
+*****************************************************************************
+
+Except in this file or in files where otherwise noted, content in this the
+Whonix source package is licensed under Whonix source code license.
+
+Copyright:
+    adrelanos (aka proper)
+    adrelanos (at) riseup (dot) net
+
+License:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Whonix Authors:
+    adrelanos (aka proper)
+    Big contributions from anonymous.
+    Leaktest and other stuff contributed by smarm.
+
+*****************************************************************************
+* End of Whonix source code license
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Whonix source code and documentation contributions
+*****************************************************************************
+
+Any changes you pull into this source will be also licensed
+under GPL v3 or any later. Additionally you grant adrelanos the right to
+re-license your work under a different license. If that is not acceptable,
+you can either fork this source under GPL v3 or any later or contact
+adrelanos. Contact adrelanos, if you require this source code under
+different license.
+
+*****************************************************************************
+* End Whonix source code and documentation contributions
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Icon Licenses:
+*****************************************************************************
+
+readme.ico
+    Downloaded from: http://findicons.com/icon/254861/readme
+    http://www.webcitation.org/6E754NgDd
+    Icon Pack: Dark Glass
+    Designer: Alessandro Rei 
+    License: GNU/GPL
+
+*****************************************************************************
+
+whonix.ico
+    Original contributed by CJ for TorBOX (old project name)
+    Rebranded and converted into ico by adrelanos.
+    Same License as Whonix source code license.
+
+*****************************************************************************
+
+torbrowser.ico
+    From the Tor Browser Bundle
+    https://gitweb.torproject.org/torbrowser.git/blob_plain/HEAD:/LICENSE
+    http://www.webcitation.org/6E74cLVu8
+    License:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+
+    * Neither the names of the copyright owners nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+*****************************************************************************
+
+timesync.ico
+    Downloaded from: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Apps-preferences-system-time-icon.html
+    http://www.webcitation.org/6E74mVLa7
+    http://www.webcitation.org/6E74mhnk7
+    Icon Pack: Oxygen Icons
+    Designer: Oxygen Team
+    License: GNU Lesser General Public License
+
+*****************************************************************************
+
+tbupdate.ico
+    Downloaded from: http://www.iconfinder.com/icondetails/15252/128/refresh_web_icon
+    http://www.webcitation.org/6E74evzeo
+    Designer: WooThemes - http://www.woothemes.com
+    License: Free for commercial use 
+
+*****************************************************************************
+
+contribute.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/3578/128/earth_hand_internet_share_sharing_world_icon
+        http://www.webcitation.org/6E76dHnyM
+        http://www.webcitation.org/6E76gwf3A
+    Designer: Everaldo Coelho - http://www.everaldo.com/
+    License: LGPL
+
+*****************************************************************************
+
+donate.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/59557/32/donate_icon
+        http://www.webcitation.org/6E71V32sH
+        http://www.iconfinder.com/browse/iconset/hamburg/#readme
+        http://www.webcitation.org/6E71Ve8z6
+        https://creativecommons.org/licenses/by/3.0/
+        http://www.webcitation.org/6E71WCyxl
+        https://creativecommons.org/licenses/by/3.0/legalcode
+        http://www.webcitation.org/6E71Wl5BZ
+    Designer: PC - http://pc.de/icons/
+    License: Creative Commons (Attribution 3.0 Unported)
+
+*****************************************************************************
+
+forum.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/11142/32/forum_users_icon
+        http://www.webcitation.org/6E70bIK1c
+        http://www.iconfinder.com/browse/iconset/drf/#readme
+        http://www.webcitation.org/6E70eQ87J
+    Designer: Jonas Rask - http://jonasraskdesign.com 
+    License: Free for commercial use
+
+*****************************************************************************
+
+mailinglist.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/33003/128/document_file_g14273_green_paper_icon
+        http://www.webcitation.org/6E73OzfEM
+    Designer: Emre Ozcelik - http://www.iconerz.com/
+    License: Free for commercial use
+
+*****************************************************************************
+
+featureblog.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/1351/128/news_paper_icon
+        http://www.webcitation.org/6E6pwHBPj
+        https://www.gnu.org/licenses/lgpl.html
+        http://www.webcitation.org/6E6qEeTrD
+    Designer: David Vignoni - http://www.icon-king.com/ 
+    License: LGPL
+
+*****************************************************************************
+
+importantblog.ico
+    Downloaded from:
+    http://www.iconfinder.com/icondetails/203/128/alert_book_important_icon
+    http://www.webcitation.org/6E9BEI19K
+    https://www.gnu.org/copyleft/gpl.html
+    http://www.webcitation.org/6E9BEPls9
+    Designer: Lothar Grimme - http://www.grafixport.org 
+    License: GPL
+
+*****************************************************************************
+
+important.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/3660/128/file_important_icon
+        http://www.webcitation.org/6E9AC3ndD
+        https://www.gnu.org/licenses/lgpl.html
+        http://www.webcitation.org/6E9AEDdfa
+    Designer: Everaldo Coelho - http://www.everaldo.com/
+    License: LGPL
+
+*****************************************************************************
+* End of Icon Licenses:
+*****************************************************************************
+
+
+
+*****************************************************************************
+* KDE Lowfat Settings License
+*****************************************************************************
+
+    Downloaded from:
+	http://packages.ubuntu.com/raring/kubuntu-settings-low-fat
+    Files:
+	whonix_workstation/usr/local/share/whonix/kde/share/config/kdedrc
+	whonix_workstation/usr/local/share/whonix/kde/share/config/kdeglobals
+	whonix_workstation/usr/local/share/whonix/kde/share/config/knotifyrc
+	whonix_workstation/usr/local/share/whonix/kde/share/config/krunnerrc
+	whonix_workstation/usr/local/share/whonix/kde/share/config/ksmserverrc
+	whonix_workstation/usr/local/share/whonix/kde/share/config/kwinrc
+	whonix_workstation/usr/local/share/whonix/kde/share/config/nepomukserverrc
+    License:
+
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: Kubuntu Settings
+Source: lp:kubuntu-settings
+
+Files: *
+Copyright: 2005-2010, Canonical Ltd. (Authors: Jonathan Riddell, Kenneth Wimer, Aurelien Gateau)
+Copyright: 2006-2010, Anthony Mercatante <tonio@ubuntu.com>
+Copyright: 2007-2010, Ryan Kavanagh <ryanakca@kubuntu.org>
+Copyright: 2007-2010, Richard A. Johnson <nixternal@kubuntu.org>
+Copyright: 2008-2012, Harald Sitter <apachelogger@ubuntu.com>
+Copyright: 2008-2010, Jonathan Thomas <echidnaman@gmail.com>
+Copyright: 2008-2009, Guillaume Martres <smarter@ubuntu.com>
+Copyright: 2009-2010, Scott Kitterman <scott@kitterman.com>
+Copyright: 2010, Rodrigo Belem <rclbelem@gmail.com>
+License: GPL-3+
+
+Files: desktop/misc/cursors/contrastlarge/*
+Copyright: 2005, Stefan Maundrakke <stefan_mdk@yahoo.de>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL' file.
+
+*****************************************************************************
+* End of KDE Lowfat Settings License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Whonix-Gateway Wallpaper License
+*****************************************************************************
+
+    Downloaded from:
+	http://kde-look.org/content/show.php/Mountain+mist?content=109446
+	http://www.webcitation.org/6GBH1PpX8
+    File:
+        whonix_gateway/usr/local/share/whonix/mountainmist.jpeg
+    License:
+        Artistic 2.0
+        http://www.perl6.org/archive/rfc/346.html
+        http://www.webcitation.org/6GBGVYg2h
+        
+*****************************************************************************
+* Whonix-Gateway Wallpaper License
+*****************************************************************************
+
+
+    
+#############################################################################
+# End of Whonix license file
+#############################################################################

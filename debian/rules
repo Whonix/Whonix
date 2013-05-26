@@ -1,0 +1,61 @@
+#!/usr/bin/make -f
+
+SOURCEFOLDERS=whonix_shared whonix_gateway whonix_workstation
+
+# Generally exclude files matching the regular expression,
+# NOTE: if the excluded file(s) result in an empty directory, this
+#       directory is also excluded at all
+#
+# EXCLUDE=.*\(\.directory\)\|.*\(\.bashrc\)\|.*\(timesync\.desktop\)
+EXCLUDE=.*\(\.directory\)
+
+#export DH_VERBOSE=1
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+build-arch: build
+
+build-indep: build
+	
+build: 
+
+binary: binary-indep
+
+binary-arch:
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installdebconf
+	dh_installchangelogs
+	dh_installdocs
+	dh_gencontrol
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_md5sums
+	dh_builddeb
+	
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+
+	mkdir -p $(CURDIR)/debian/tmp
+	
+	for sf in $(SOURCEFOLDERS); do \
+		find $$sf/ -not -regex '$(EXCLUDE)$$' -type f -exec cp -p --parents {} \
+			$(CURDIR)/debian/tmp \; ; \
+	done
+
+	if [ ! -f $(CURDIR)/debian/copyright ]; then \
+		cp $(CURDIR)/LICENSE $(CURDIR)/debian/copyright; \
+	fi
+	
+	dh_install --list-missing --sourcedir=$(CURDIR)/debian/tmp
+	
+.PHONY: build clean binary install
