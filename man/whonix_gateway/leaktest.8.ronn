@@ -20,7 +20,7 @@ aborting it resets /etc/tor/torrc back to normal (comments out
 `FascistFirewall 1`) and reloads Tor and checks its status again. See
 /usr/bin/leaktest for implementation details.
 
-As long its running, it writes tshark's output to standard output.
+As long as it's running, it writes tshark's output to standard output.
 
 The tester is supposed to run `leaktest` on Whonix-Workstation after leaktest
 has been started on Whonix-Gateway.
