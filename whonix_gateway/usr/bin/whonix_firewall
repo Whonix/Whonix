@@ -397,7 +397,7 @@ fi
 #iptables -A INPUT -j LOG --log-prefix "Whonix blocked input4: "
 
 ## Reject anything not explicitly allowed above.
-## Drop is better than reject here, because we do not want to reveal its a Whonix-Gateway.
+## Drop is better than reject here, because we do not want to reveal it's a Whonix-Gateway.
 ## (In case someone running Whonix-Gateway on bare metal.)
 iptables -A INPUT -j DROP
 
