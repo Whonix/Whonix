@@ -10,7 +10,7 @@ Introduction
 ------------
 
 Whonix users are most likely Tor power users. They are more paranoid
-then normal Tor users. And adversaries might ask themselves why. Whonix
+than normal Tor users. And adversaries might ask themselves why. Whonix
 users most likely host hidden services or do other fancy stuff over Tor.
 
 Depending on how restricted your area is and how paranoid you are, you
@@ -26,7 +26,7 @@ Whonix over Tor, the fact you are using Whonix will be hidden. This is
 because all traffic from Whonix-Workstation and Whonix-Gateway is routed
 over Tor. 1 3
 
-Hiding the fact you, that you are a Tor user is very tricky to archive.
+Hiding the fact, that you are a Tor user is very tricky to archive.
 Be very careful. Here are some tips. This isn't a step by step tutorial.
 It's recommended to read the whole chapter.
 
@@ -49,7 +49,7 @@ Quote (w) Jacob Appelbaum:
   policing.
 
 ^1^ To preserve anonymity of activities the user is doing inside
-Whonix-Worktation, it would not be required to torify Whonix-Gateway's
+Whonix-Workstation, it would not be required to torify Whonix-Gateway's
 own traffic. ^2^
 ^2^ apt-get operating system updates, network time
 synchronization.
