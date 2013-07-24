@@ -106,7 +106,7 @@ copy_backup_workstation() {
    cp --no-clobber --recursive --preserve "$CHROOT_FOLDER"/whonix_workstation/etc/polipo/config "$CHROOT_FOLDER"/etc/polipo/config.backup || true
 
    ## /etc/kde4/kdm/kdmrc
-   ## Overriding with true because its only for kde autologin for the case kde does not get installed in custom builds.
+   ## Overriding with true because it's only for kde autologin for the case kde does not get installed in custom builds.
    cp --no-clobber --recursive --preserve "$CHROOT_FOLDER"/etc/kde4/kdm/kdmrc "$CHROOT_FOLDER"/etc/kde4/kdm/kdmrc.backup || true
 }
 
