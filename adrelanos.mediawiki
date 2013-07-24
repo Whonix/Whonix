@@ -25,7 +25,7 @@ torhost.onion Free Onion Hosting Service
 == Mirrors of adrelanos OpenPGP key ==
 savannah.gnu.org profile page
 * https://savannah.gnu.org/people/viewgpg.php?user_id=89289
-* The following command is recommend to enforce downloading the key over SSL.
+* The following command is recommended to enforce downloading the key over SSL.
 * ## Not forced through Tor, unless you are using Whonix, torsocks or similar.
 * curl --tlsv1 --proto =https --output adrelanos.asc.4 https://savannah.gnu.org/people/viewgpg.php?user_id=89289
 
@@ -53,7 +53,7 @@ As an anonymous developer, I can't use the web of trust and get my key signed. T
 
 All mirrors of my personal site, do also have the power to exchange my OpenPGP key with a malicious one. It's unlikely, that all mirrors will cooperate and tamper with my OpenPGP key.
 
-After all, an OpenPGP key only proves, that a message was singed with a specific key id. It doesn't prove, if I am a genuine or evil developer or even a whole entity.
+After all, an OpenPGP key only proves, that a message was signed with a specific key id. It doesn't prove, if I am a genuine or evil developer or even a whole entity.
 
 See also:
 * https://www.whonix.org/wiki/Trusting_Whonix_Signing_Key
