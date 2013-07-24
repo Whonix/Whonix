@@ -49,7 +49,7 @@ Or, if you are using a graphical Whonix-Gateway.
     
     Start Menu -> Applications -> /etc/tor/torrc
 
-Having said that its a manual process, you can press ok now (press enter). Nothing will happen. You can leave the First Time Connection Wizard using the Cancel button in the main menu.
+Having said that it's a manual process, you can press ok now (press enter). Nothing will happen. You can leave the First Time Connection Wizard using the Cancel button in the main menu.
 '
 
 TITLE="Tor (or other anonymity networks) are censored in my area."
