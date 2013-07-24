@@ -75,7 +75,7 @@ DisableNetwork 1
 ##   https://www.torproject.org/projects/obfsproxy.html.en
 ## - https://bridges.torproject.org/?transport=obfs2
 
-## Note, that those bridges might get blocked soon. And it is also not hard for the censurer,
+## Note, that those bridges might get blocked soon. And it is also not hard for the censorer,
 ## to find out that you are using those semi-public bridges.
 
 ## Only friends can setup private obfuscated bridges for you.
@@ -230,7 +230,7 @@ TransPort 192.168.0.10:9040
 ## which is documented.
 ##
 ## Not sure about IsolateDestAddr.
-## IsolateDestPort has probable very little effect, since most DNS servers listen on port 53.
+## IsolateDestPort has probably very little effect, since most DNS servers listen on port 53.
 DnsPort 192.168.0.10:53 IsolateDestPort
 
 ##################################
@@ -323,7 +323,7 @@ SocksPort 192.168.0.10:9108 IsolateDestAddr IsolateDestPort
 
 ## command line downloader: wget
 ## Only manually and by very few applications used. Should not
-## hurt performance or Tor network. Very few many connections
+## hurt performance or Tor network. Very few connections are
 ## expected.
 SocksPort 192.168.0.10:9109 IsolateDestAddr IsolateDestPort
 
@@ -342,7 +342,7 @@ SocksPort 192.168.0.10:9110 IsolateDestAddr IsolateDestPort
 SocksPort 192.168.0.10:9111
 
 ## http to socks converter: privoxy
-## Not use for anything preinstalled.
+## Not in use for anything preinstalled.
 ## Not using IsolateDestAddr IsolateDestPort for the same reasons
 ## as mentioned under Web: Tor Browser.
 ## Only used for Thunderbird with TorBirdy, which is not
@@ -379,7 +379,7 @@ SocksPort 192.168.0.10:9116 IsolateDestAddr IsolateDestPort
 
 ## Curl
 ## Only manually and by very few applications used. Should not
-## hurt performance or Tor network. Very few many connections
+## hurt performance or Tor network. Very few connections are
 ## expected.
 SocksPort 192.168.0.10:9117 IsolateDestAddr IsolateDestPort
 
@@ -511,7 +511,7 @@ SocksPort 192.168.0.10:9189 IsolateDestAddr IsolateDestPort
 
 ## Developer comment:
 ##
-## We actually do not need all them,
+## We actually do not need all of them,
 ## but they do not hurt anyway and
 ## it keeps the setup more generic,
 ## with less exceptions.
