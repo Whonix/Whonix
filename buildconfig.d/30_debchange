@@ -31,7 +31,7 @@
 ##############################
 ## defaults to "local"
 ## interesting values: local, stable, testers, developers
-## its the name of the suite which will be used for reprepro
+## it's the name of the suite which will be used for reprepro
 ## For explanation, Debian, a different project, uses stable, testing, sid.
 #export WHONIX_BUILD_APT_CODENAME="local"
 
