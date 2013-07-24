@@ -82,7 +82,7 @@ do_start () {
       PLUS_OR_MINUS="+"
    else
       touch "$FAIL_FILE"
-      log "ERROR: ZERO_OR_ONE is neither 0 nor 1, its: $ZERO_OR_ONE"
+      log "ERROR: ZERO_OR_ONE is neither 0 nor 1, it's: $ZERO_OR_ONE"
       log "       Please report this bug!"
       return 2
    fi
