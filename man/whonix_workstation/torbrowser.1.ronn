@@ -8,7 +8,7 @@ torbrowser(1) -- Tor Browser Update and Start Script
 The torbrowser script lets you safely download the Tor Browser Bundle (TBB)
 from the Tor Project's website. It enforces TLS encryption (https) for
 `http://check.torproject.org`, downloads TBB from the Tor Project's hidden
-service and uses OpenPGP verification. It is the recommend way to keep Tor
+service and uses OpenPGP verification. It is the recommended way to keep Tor
 Browser updated in Whonix-Workstation.
 
 In case there is already a `/home/user/tor-browser_en-US` folder, it renames it
@@ -16,7 +16,7 @@ to /home/user/tor-browser_en-US_(current date and time). It extracts freshly
 downloaded TBB too to your `/home/user` folder to
 `/home/user/tor-browser_en-US`.
 
-It prevents Tor over Tor (which is recommend), because it nicely integrates
+It prevents Tor over Tor (which is recommended), because it nicely integrates
 into Whonix, by patching the Tor Browser start script
 `/home/user/tor-browser_en-US/start-tor-browser` to only start Tor
 Browser, so the integrated Tor and Vidalia will not be started. (Tor is already
@@ -49,7 +49,7 @@ You can also use `torbrowser` to start Tor Browser from the command line.
     
   * --recommend
   
-    Recommend way to start Tor Browser. It opens two offline html pages,
+    Recommended way to start Tor Browser. It opens two offline html pages,
     Whonix Important Blog and Whonix Feature Blog, which are supposed to keep
     you safe by informing you about latest developments.
     

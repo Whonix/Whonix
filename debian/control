@@ -28,9 +28,9 @@ Priority: optional
 Architecture: all
 Depends: bash-completion, command-not-found, zsh, nano, wget, dnsutils, dbus, iputils-ping,
  apparmor-profiles, apparmor-utils, ${misc:Depends}
-Description: Recommend packages for Whonix-Gateway and Whonix-Workstation
- A metapackage, which includes recommend packages to ensure, Debian GNU/Linux
- standard tools are available and other useful recommend packages.
+Description: Recommended packages for Whonix-Gateway and Whonix-Workstation
+ A metapackage, which includes recommended packages to ensure, Debian GNU/Linux
+ standard tools are available and other useful recommended packages.
  .
  Safe to remove, if you know what you are doing.
  
@@ -64,7 +64,7 @@ Architecture: all
 Pre-Depends: whonix-shared-packages-dependencies (= ${source:Version})
 Depends: tor-geoipdb, tor-arm, obfsproxy, apper, ${misc:Depends}
 Conflicts: whonix-workstation-packages-recommend
-Description: Recommend packages for Whonix-Gateway
+Description: Recommended packages for Whonix-Gateway
  A metapackage, which installs packages, which are recommended for
  a Tor Gateway.
  .
@@ -120,7 +120,7 @@ Suggests: whonix-shared-desktop (= ${source:Version}),
  whonix-workstation-default-applications (= ${source:Version}),
  whonix-workstation-extra-applications (= ${source:Version})
 Conflicts: whonix-gateway-packages
-Description: Recommend packages for Whonix-Workstation
+Description: Recommended packages for Whonix-Workstation
  A metapackage, which installs packages, which are recommended for
  Whonix-Workstation, because they are useful for a Tor Workstation.
  .
@@ -183,7 +183,7 @@ Depends: whonix-shared-desktop (= ${source:Version}), kde-workspace, kdm, kdesud
  okular, khelpcenter4, ${misc:Depends}
 Suggests: whonix-shared-kde-accessibility (= ${source:Version}),
  whonix-shared-desktop-langpack-kde (= ${source:Version})
-Description: Recommend packages for Gateway/Workstation base KDE desktop
+Description: Recommended packages for Gateway/Workstation base KDE desktop
  A metapackage, which installs a minimal, yet complete enough 
  to contain the very basics, KDE desktop. The Whonix-Gateway desktop and the
  Whonix-Workstation desktop depend on this package.
@@ -210,7 +210,7 @@ Depends: xchat, vlc, mixmaster, galternatives, apper,
 Suggests: whonix-shared-desktop (= ${source:Version}),
  whonix-workstation-extra-applications (= ${source:Version}),
  whonix-workstation-langpack-common (= ${source:Version})
-Description: Recommend default applications for Whonix-Workstation
+Description: Recommended default applications for Whonix-Workstation
  A metapackage, which installs recommended default applications, 
  which are useful in a default installation of a Tor Workstation.
  .

@@ -29,7 +29,7 @@ process_background() {
 
 
 Welcome to Whonix-Gateway! This is NOT a personal work station for your own private activities! So please do NOT use Whonix-Gateway for any purpose other than configuring Tor and
-Whonix. The more you learn about Whonix and anonymity, the safer you can become. Reading Whonix documentation is recommend.
+Whonix. The more you learn about Whonix and anonymity, the safer you can become. Reading Whonix documentation is recommended.
 
 If your host has little RAM, you are advised to reduce Whonix-Gateway RAM to 128 MB. No graphical desktop environment will be started in that case.
 A Whonix-Gateway without graphical desktop environment works as good as one with, its just not that convenient. If you want, you can sometimes start a graphical desktop

@@ -6,7 +6,7 @@
 ## Actually its not a "strong" dependency. /usr/bin/uwtwrapper
 ## uses uwt (which runs torsocks). uwtwrapper can be configured in
 ## /etc/whonix.d/ and uwt (and therefore torsocks) can be deactivated.
-## Since stream isolation uwt wrappers are recommend for most users
+## Since stream isolation uwt wrappers are recommended for most users
 ## and enabled by default, its a dependency.
 torsocks
 

@@ -62,7 +62,7 @@ general_setup() {
    ## http://www.braingia.org/webnotes/2011/06/22/disable-time-sync-with-virtualbox/
    sudo -u "$USERNAME" VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" "1"
 
-   ## Disable clipboard sharing. Only matters if guest additions are installed which is recommend against.
+   ## Disable clipboard sharing. Only matters if guest additions are installed which is recommended against.
    ## Just in case.
    sudo -u "$USERNAME" VBoxManage modifyvm "$VMNAME" --clipboard disabled
 }

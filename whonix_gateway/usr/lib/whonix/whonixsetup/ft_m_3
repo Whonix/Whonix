@@ -28,7 +28,7 @@ over Tor. 1 3
 
 Hiding the fact you, that you are a Tor user is very tricky to archive.
 Be very careful. Here are some tips. This isn't a step by step tutorial.
-It's recommend to read the whole chapter.
+It's recommended to read the whole chapter.
 
 Use either private and obfuscated bridges or a VPN/SSH proxy. On one
 hand, best chance to hide Tor might be to combine both ways, on the
