@@ -39,7 +39,7 @@ else
    true "INFO $0: Fixing /boot/grub/grub.cfg to work around a bug in grub when run inside chroot..."
    
    ## For the following two lines, credit goes to grml-team (grml.org), (c) Michael Prokop <mika@grml.org>
-   ## Its taken from usr/sbin/grml-debootstrap, from grml-debootstrap package, which is licensed GPL v2+.
+   ## It's taken from usr/sbin/grml-debootstrap, from grml-debootstrap package, which is licensed GPL v2+.
    sed -i "s;set root=.*;set root='(hd0,msdos1)';" /boot/grub/grub.cfg
    sed -i "s;root=[^ ]\+;root=/dev/sda1;" /boot/grub/grub.cfg
    
