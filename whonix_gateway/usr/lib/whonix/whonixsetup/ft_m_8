@@ -69,7 +69,7 @@ So Tor should now be disabled.
 whonixsetup really only deactivates Tor by commenting in "DisableNetwork 1" in /etc/tor/torrc.
 Running it multiple times in a row archives nothing.
 In case of network problems, this is probably not the cause.
-You can confirm that by manually checking if "DisableNetwork 1" has been in commented in /etc/tor/torrc.
+You can confirm that by manually checking if "DisableNetwork 1" has been commented in /etc/tor/torrc.
 ' 640 480
 
       dialog --title "Info" --msgbox 'Checking if Tor is still running and stopping it if necessary...' 640 480
