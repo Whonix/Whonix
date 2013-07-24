@@ -121,7 +121,7 @@ fi
 ##
 ## Setting default "ret=0" beforehand, because
 ## command2 does only get executed, if command1 return non-zero.
-## So in case its zero, the default return value must be already set.
+## So in case it's zero, the default return value must be already set.
 
 if [ "$uwtwrapper_global" = "0" ]; then
    if [ "$fake_time" = "faketime" ]; then
