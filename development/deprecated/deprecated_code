@@ -18,14 +18,14 @@
 
 # Win+Space shows Openbox menu.
 #
-# Out commented. We never advertised this feature and its
-# probable better if the user decides to activate it.
+# Out commented. We never advertised this feature and it's
+# probably better if the user decides to activate it.
 #
 # ( echo '/<keyboard>/a'; echo '<keybind key="W-space"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>'; echo '.'; echo 'wq') | sudo -u "$USERNAME" ed -s .config/openbox/rc.xml 
 
 # Fix ugly corners in tint2rc.
 #
-# Out commented. Its up to the user to decide which
+# Out commented. It's up to the user to decide which
 # style settings to choose.
 #
 # sudo -u "$USERNAME" ed -s .config/tint2/tint2rc <<< $',s/rounded = 7/rounded = 0/g\nw' 
@@ -195,7 +195,7 @@ config_vidalia
 
 # Lift permissions to edit torrc to allow Vidalia editing torrc.
 # There should be no security implications, since Whonix-Gateway is
-# not a multi user environment, its solely used to host Tor. On the
+# not a multi user environment, it's solely used to host Tor. On the
 # other hand, for the Tor Browser Bundle, Tor, Vidalia and Tor Browser
 # run under the very same user account.
 chmod --recursive g+rw /etc/tor/torrc
