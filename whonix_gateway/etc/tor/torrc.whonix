@@ -165,7 +165,7 @@ DisableNetwork 1
 ## - Not using HashedControlPassword or CookieAuthentication.
 ##   Whonix-Gateway is no multi purpose machine. It is solely a
 ##   Tor Gateway. As soon as an adversary has physical access
-##   or compromised Whonix-Gateway, its Game Over anyway.
+##   or compromised Whonix-Gateway, it's Game Over anyway.
 ControlPort 9051
 ControlListenAddress 127.0.0.1
 
