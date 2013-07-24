@@ -38,7 +38,7 @@ environment and sometimes only a terminal by toggling how much RAM is available 
 If you want to change the keyboard layout from the default \"us\" to something else:
 Start menu button -> Applications -> Settings -> System Settings -> input devices -> layout -> add yours and remove default one -> apply -> Done.
 
-Default username: username
+Default username: user
 Default password: changeme
 
 
