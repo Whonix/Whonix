@@ -1,8 +1,7 @@
 
-
 ## This tpoarchive-keys.d folder gets only used by the /usr/share/whonix/chroot-scripts-post.d/40_add_torprojects_key chroot post script.
 ## 
-## It must only be up to date when building Whonix from source code, not necessarily when creating update packages.
+## It must be up to date only when building Whonix from source code, not necessarily when creating update packages.
 ## 
-## After that its will be kept updated by the deb.torproject.org-keyring deb package.
+## After that it will be kept updated by the deb.torproject.org-keyring deb package.
 
