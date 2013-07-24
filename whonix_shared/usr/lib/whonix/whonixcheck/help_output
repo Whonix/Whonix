@@ -223,7 +223,7 @@ $ZENITY_MESSAGE" | write user tty1 2>/dev/null || true
             ZENITY_MESSAGE="ZENITY_MESSAGE is empty. ($SCRIPTNAME) ($temp) Please report this bug!"
          fi
          
-         ## In case show_output is called, its always the end of all checks.
+         ## In case show_output is called, it's always the end of all checks.
          ## Therefore setting progress bar to 100 percent.
          progress_bar 100
          
