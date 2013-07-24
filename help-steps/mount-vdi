@@ -27,7 +27,7 @@ mount_vdi() {
    ## Find name of .vdi file. New:
    local VDI="$(find  ""$HOMEVAR"/VirtualBox VMs/""$VMNAME"/*.vdi)"
    ## example result: "$HOMEVAR"/VirtualBox VMs/whonix-Gateway/whonix-Gateway-disk1.vdi
-   ## For debugging its useful to clone a VM, where only the operating system has been installed,
+   ## For debugging it's useful to clone a VM, where only the operating system has been installed,
    ## before running the script or before copying into it.
    ## When restoring the VMClone to VM, the VDI may have another name.
 
