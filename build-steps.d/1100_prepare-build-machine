@@ -46,7 +46,7 @@ prepare-build-machine() {
    addgroup "$USERNAME" sudo   
 
    ## Fix permissions, just in case.
-   ## Not sure its still useful for anything.
+   ## Not sure if it's still useful for anything.
    #chown --recursive "$USERNAME":"$USERNAME" /home/"$USERNAME"   
 
    if [ ! "$WHONIX_BUILD_UPGRADE_BUILD_MACHINE" = "0" ]; then
