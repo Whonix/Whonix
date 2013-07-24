@@ -39,7 +39,7 @@ export http_proxy="http://127.0.0.1:3142"
 apt-get --yes install linux-image-486
 
 ## This is a chroot-script and not a postinst.d script, because the linux-image-486
-## gets only installed for compatibility reasons. Once its installed on the users
+## gets only installed for compatibility reasons. Once it's installed on the user's
 ## system, apt-get will keep care of upgrading it. The user is free to uninstall it.
 
 ## Disable apt-cacher-ng proxy.
