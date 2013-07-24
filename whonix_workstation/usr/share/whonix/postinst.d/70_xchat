@@ -33,7 +33,7 @@ if [ -d /home/user/.xchat2 ]; then
 fi
 
 ## Ok, this script runs for the very first time. The users XChat data
-## folder does not exist yet. Therefore its safe to create it.
+## folder does not exist yet. Therefore it's safe to create it.
 
 ## Using xchat-reset to copy privacy hardened configuration files from
 ## /usr/share/whonix/home/.xchat2/* to /home/user/.xchat2/.
