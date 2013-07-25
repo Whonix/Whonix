@@ -385,7 +385,7 @@ SocksPort 192.168.0.10:9117 IsolateDestAddr IsolateDestPort
 
 ## RSS
 ## By default only for the Whonix Blog and for the torproject.org blog.
-## Few users expected to to add their own feeds.
+## Few users expected to add their own feeds.
 SocksPort 192.168.0.10:9118 IsolateDestAddr IsolateDestPort
 
 ## TorChat
