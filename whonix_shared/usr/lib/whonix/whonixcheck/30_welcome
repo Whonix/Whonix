@@ -44,7 +44,7 @@ welcome() {
    ## later when it gets killed by the progress_bar function.
    exec 3>"$FIFO"
    
-   ## To get ride of the confusing
+   ## To get rid of the confusing
    ## line "/usr/lib/whonix/whonixcheck/help_output: line 348:  9404 Killed [...]"
    ## at the end.   
    disown "$ZENITY_PROGRESS_PID"
