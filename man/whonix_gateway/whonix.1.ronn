@@ -6,7 +6,7 @@ whonix(1) -- Whonix Help File
 `whonix`
 
 ## DESCRIPTION
-Simply type <whonix> in in terminal you will see some basic facts about Whonix
+Simply type <whonix> in the terminal, you will see some basic facts about Whonix
 and command line tools, which come with Whonix.
 
 ## EXAMPLE
