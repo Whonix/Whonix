@@ -214,7 +214,7 @@ AutomapHostsOnResolve 1
 ##
 ## IsolateDestAddr should not be activated by default,
 ## if people install filesharing software it would be a nightmare if all connections to the massive amount
-## of destination IP's would go through it's own circuit.
+## of destination IP's would go through its own circuit.
 ##
 ## For the same reason IsolateDestPort should not be activated by default, since BitTorrent (in some cases)
 ## uses random ports.
