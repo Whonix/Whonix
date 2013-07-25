@@ -6,7 +6,7 @@
 ## http://lifeonubuntu.com/how-to-prevent-server-daemons-from-starting-during-apt-get-install/
 ## Prevents deamons from starting while using apt-get.
 ##
-## Therefore for example stops connecting the the public
+## Therefore for example stops connecting to the public
 ## Tor network while building the images.
 
 ## This is interesting for (obfuscated) bridge users and

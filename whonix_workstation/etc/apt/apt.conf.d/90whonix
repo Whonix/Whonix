@@ -67,7 +67,7 @@
 ##
 ## The apt-get mailing list and irc channel could not confirm,
 ## that Acquire::socks::proxy is implemented.
-## As in in October 2012, Acquire::socks::proxy is silently ignored.
+## As in October 2012, Acquire::socks::proxy is silently ignored.
 ##
 #Acquire::socks::proxy "socks://192.168.0.10:9104/";
 

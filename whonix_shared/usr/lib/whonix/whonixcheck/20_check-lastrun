@@ -30,7 +30,7 @@ check_whonixcheck_lastrun() {
 
    #echo "whonixcheck checks completed $DIFFERENCE seconds ago."
 
-   ## If difference is less than or equal to to one day.
+   ## If difference is less than or equal to one day.
    #echo "DIFFERENCE: $DIFFERENCE MAX: $MAX"
 
    if [ "$DIFFERENCE" -le "$MAX" ]; then

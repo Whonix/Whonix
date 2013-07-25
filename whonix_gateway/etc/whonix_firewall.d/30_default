@@ -110,7 +110,7 @@ GATEWAY_TRANSPARENT_DNS=0
 ## configurations more complicated. You can optionally disable this feature.
 ##
 ## Experts only! There is also the user clearnet on the Whonix-Gateway, which
-## is allowed to to make non-Tor connections.
+## is allowed to make non-Tor connections.
 ##
 ## Allow (1) or forbid (0) the root user on the Whonix-Gateway to make non-Tor connections.
 ## Experts only!

@@ -64,7 +64,7 @@ po::powerokwait:/etc/init.d/powerfail stop
 ## VMONLY
 ## Activating auto login on tty1.
 ## If you do not want this,
-## comment in the next line and enable the the next but one.
+## comment in the next line and enable the first one.
 #1:2345:respawn:/sbin/getty 38400 tty1
 1:2345:respawn:/sbin/getty --autologin user 38400 tty1
 

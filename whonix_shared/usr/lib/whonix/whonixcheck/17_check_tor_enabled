@@ -2,7 +2,7 @@
 
 #set -x
 
-## Check is Tor enabled.
+## Check if Tor is enabled.
 check_tor_enabled_do() {
    trap "error_handler" ERR
 
@@ -26,7 +26,7 @@ check_tor_enabled_do() {
 } 
 
 ## Aborting, if whonixsetup was not run, i.e. if
-## "DisableNetwork 1" is commented in in /etc/tor/torrc.
+## "DisableNetwork 1" is commented in /etc/tor/torrc.
 check_tor_enabled() {
    trap "error_handler" ERR
 

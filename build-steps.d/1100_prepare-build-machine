@@ -115,7 +115,7 @@ prepare-build-machine() {
       ## Removing temporary debian testing (jessi) repository.
       rm --force "$TEMP"
    
-      ## Update package lists again to get ride of debian testing (jessi) repository.
+      ## Update package lists again to get rid of debian testing (jessi) repository.
       apt-get update \
          --no-download \
          --list-cleanup

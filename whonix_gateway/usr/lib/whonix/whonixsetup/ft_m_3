@@ -78,7 +78,7 @@ Warnings
 -   Another issue for hiding your Whonix usage is installing and/or
     downloading Whonix.
 -   Download.
-    -   If you download Whonix form sf.net that download will go
+    -   If you download Whonix from sf.net that download will go
         unencrypted and your internet service provider (or SSH/VPN
         provider) will learn, that you downloaded Whonix.
         -   A workaround could be, to download Whonix by using the

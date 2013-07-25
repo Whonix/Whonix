@@ -21,7 +21,7 @@ case $WHONIX_BUILD_SKIP_SCRIPTS in
                     ;;
 esac
 
-## rm to get ride of the symlink, in case there is any.
+## rm to get rid of the symlink, in case there is any.
 ## http://wiki.debian.org/motd
 unlink "$CHROOT_FOLDER"/etc/motd || true
 
