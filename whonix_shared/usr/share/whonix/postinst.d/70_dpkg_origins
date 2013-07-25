@@ -27,7 +27,7 @@ esac
 
 ## || true to support re-running the script
 
-## Get ride of old symlink.
+## Get rid of old symlink.
 unlink /etc/dpkg/origins/default || true
 
 ln -s /etc/dpkg/origins/whonix /etc/dpkg/origins/default || true
