@@ -18,5 +18,5 @@ More verbose, paranoid build instructions and steps for redistribution can be fo
 
 = How to Contribute =
 
-Either work on any of the [https://github.com/Whonix/Whonix/issues open tickets] or suggest and implement any of your own ideas. Report issues you may find with Whonix or building from source code. Sign up for [https://whonix.org/cgi-bin/mailman/listinfo/whonix-users whonix-devel mailing list] and say hi. For any questions/discussion, mail whonix-devel.
+Either work on any of the [https://github.com/Whonix/Whonix/issues open tickets] or suggest and implement any of your own ideas. Report issues you may find with Whonix or building from source code. Sign up for [https://whonix.org/cgi-bin/mailman/listinfo/whonix-devel whonix-devel mailing list] and say hi. For any questions/discussion, mail whonix-devel.
 
