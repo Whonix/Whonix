@@ -4,9 +4,9 @@ Whonix is an operating system focused on anonymity, privacy and security. It's b
 
 Whonix consists of two parts: One solely runs Tor and acts as a gateway, which we call Whonix-Gateway. The other, which we call Whonix-Workstation, is on a completely isolated network. Only connections through Tor are possible.
 
-To learn more about security and anonymity under Whonix, please continue to [https://whonix.org/wiki/About About Whonix].
+To learn more about security and anonymity under Whonix, please continue to [https://www.whonix.org/wiki/About About Whonix].
 
-'''[https://whonix.org/wiki/Download Download Whonix]'''
+'''[https://www.whonix.org/wiki/Download Download Whonix]'''
 
 = How to Build Whonix from Source Code =
 
@@ -14,9 +14,9 @@ To learn more about security and anonymity under Whonix, please continue to [htt
 sudo ./whonix_build_both
 </pre>
 
-More verbose, paranoid build instructions and steps for redistribution can be found [https://whonix.org/wiki/Dev/Build_Documentation here].
+More verbose, paranoid build instructions and steps for redistribution can be found [https://www.whonix.org/wiki/Dev/Build_Documentation here].
 
 = How to Contribute =
 
-Either work on any of the [https://github.com/Whonix/Whonix/issues open tickets] or suggest and implement any of your own ideas. Report issues you may find with Whonix or building from source code. Sign up for [https://whonix.org/cgi-bin/mailman/listinfo/whonix-devel whonix-devel mailing list] and say hi. For any questions/discussion, mail whonix-devel.
+Either work on any of the [https://github.com/Whonix/Whonix/issues open tickets] or suggest and implement any of your own ideas. Report issues you may find with Whonix or building from source code. Sign up for the [https://www.whonix.org/cgi-bin/mailman/listinfo/whonix-devel whonix-devel mailing list] and say hi. For any questions/discussion, mail whonix-devel.
 
