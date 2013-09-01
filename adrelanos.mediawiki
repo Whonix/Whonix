@@ -2,25 +2,17 @@
 This page is about adrelanos, a person who maintains Whonix. It explains, how to contact me and what the caveats are.
 
 == Mirrors of this site ==
+Github:
+* https://github.com/Whonix/Whonix/blob/master/adrelanos.mediawiki
+* Github.com is accessible over SSL, see SSL security below.
+
 Sourceforge:
 * http://whonix.sf.net/adrelanos
 * Not even SSL.
 
-Github:
-* https://github.com/adrelanos/Whonix/blob/master/adrelanos.mediawiki
-* Github.com is accessible over SSL, see SSL security below.
-
 Torproject.org Wiki:
 * https://trac.torproject.org/projects/tor/wiki/doc/proper
 * Anyone can edit the torproject.org wiki and exchange content with malicious one. Therefore check the history feature. Obviously I do trust Tor and torproject.org. Edits by my wiki account "proper" should be genuine. 
-
-Free Onion Hosting Service
-* http://su6ephfi7dtxnbtb.onion/
-* Anonymous admin.
-
-torhost.onion Free Onion Hosting Service
-* http://p4vm6o4n4hbfqxhy.onion/
-* Anonymous admin.
 
 == Mirrors of adrelanos OpenPGP key ==
 savannah.gnu.org profile page
