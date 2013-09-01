@@ -42,9 +42,9 @@ Colors
 
 echo -e "
 ${BoldOn}Documentation can be found on Whonix homepage.
-https://www.whonix.sf.org
+https://www.whonix.org
 
-Whonix is based on regular Debian, Virtual Box and Tor.
+Whonix is based on Debian, VirtualBox and Tor.
 
 The following commands are available on Whonix-Gateway...${Reset}
 
