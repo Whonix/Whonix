@@ -8,7 +8,7 @@ Github:
 
 Sourceforge:
 * http://whonix.sf.net/adrelanos
-* Not even SSL.
+* No SSL.
 
 Torproject.org Wiki:
 * https://trac.torproject.org/projects/tor/wiki/doc/proper
@@ -48,7 +48,7 @@ All mirrors of my personal site, do also have the power to exchange my OpenPGP k
 After all, an OpenPGP key only proves, that a message was signed with a specific key id. It doesn't prove, if I am a genuine or evil developer or even a whole entity.
 
 See also:
-* https://www.whonix.org/wiki/Trusting_Whonix_Signing_Key
+* https://www.whonix.org/wiki/Whonix_Signing_Key
 * https://www.whonix.org/wiki/Trust
 
 == OpenPGP fingerprint ==
