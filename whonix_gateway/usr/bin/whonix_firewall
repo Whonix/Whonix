@@ -456,7 +456,7 @@ if [ "$GATEWAY_TRANSPARENT_DNS" = "1" ]; then
    iptables -t nat -A OUTPUT -p udp --dport 53 -j REDIRECT --to-ports "$DNS_PORT_WHONIXG"
 fi
 
-## Exclude connections to local network, Whonix-Workstation, Virtual Box from being redirected through Tor.
+## Exclude connections to local network, Whonix-Workstation, VirtualBox from being redirected through Tor.
 for NET in $NON_TOR_WHONIXG; do
    iptables -t nat -A OUTPUT -d "$NET" -j RETURN
 done
@@ -470,7 +470,7 @@ fi
 ## Existing connections are accepted.
 iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
-## Accept outgoing connections to local network, Whonix-Workstation and Virtual Box.
+## Accept outgoing connections to local network, Whonix-Workstation and VirtualBox.
 for NET in $NON_TOR_WHONIXG; do
    iptables -A OUTPUT -d "$NET" -j ACCEPT
 done
