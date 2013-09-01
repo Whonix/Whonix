@@ -858,7 +858,7 @@ update-rc.d htpdate defaults
 ## Whonix design.
 echo "ntpdate hold" | dpkg --set-selections
 
-## Not installing Debian popularity contest do to privacy concerns.
+## Not installing Debian popularity contest due to privacy concerns.
 echo "popularity-contest hold" | dpkg --set-selections
 
 ## Not installing resolvconf as it can modify DNS settings,
@@ -880,7 +880,7 @@ echo "geoclue-ubuntu-geoip hold" | dpkg --set-selections
 echo "geoclue hold" | dpkg --set-selections
 
 ## Not installing uncomplicated firewall, because it
-## conflicts with Whonix own firewall started by
+## conflicts with Whonix's own firewall started by
 ## /etc/network/interfaces pre-up.
 ## Only interesting for custom builds.
 echo "ufw hold" | dpkg --set-selections
