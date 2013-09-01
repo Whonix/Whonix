@@ -28,7 +28,7 @@ if [ ! "$WORKSTATION_FIREWALL" = "1" ]; then
    : "## There is a second, extra firewall for Whonix-Workstation."
    : "## It is disabled by default."
    : "## Experts should read the design notes in"
-   : "## its man page and and make an informed decision."
+   : "## its man page  and make an informed decision."
    : "##    man whonix_firewall"
    : "##"
    : "########################################################"
@@ -40,8 +40,8 @@ fi
 
 
 ## NOTE: If you make changes to this firewall, think about, if it would
-##       make sense, to add the changes to Whonix-Gateway script as well.
-##       Some things, like drop invalid packages, should be shared.
+##       make sense to add the changes to Whonix-Gateway script as well.
+##       Some things like dropping invalid packages, should be shared.
 
 ## TODO:
 ## - Should allow unlimited TCP/UDP/IPv6 traffic on the virtual external interface (OnionCat / OpenVPN).
