@@ -19,7 +19,7 @@ Package: ntpdate
 Pin: release *
 Pin-Priority: -1
 
-## Not installing Debian popularity contest do to privacy concerns.
+## Not installing Debian popularity contest due to privacy concerns.
 Package: popularity-contest
 Pin: release *
 Pin-Priority: -1
@@ -65,7 +65,7 @@ Pin: release *
 Pin-Priority: -1
 
 ## Not installing uncomplicated firewall, because it
-## conflicts with Whonix own firewall started by
+## conflicts with Whonix's own firewall started by
 ## /etc/network/interfaces pre-up.
 ## Only interesting for custom builds.
 Package: ufw
