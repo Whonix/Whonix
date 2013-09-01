@@ -22,7 +22,7 @@ whonixdesktop_start_display_manager=1
 ## Minimum amount of total RAM, which has to be available
 ## to start the display manager. If less RAM is
 ## available, no display manager will be autostarted.
-## Note: When using Virtual Box, Video RAM gets subtracted from the total
+## Note: When using VirtualBox, Video RAM gets subtracted from the total
 ## amount of RAM, which RAM Desktop Loader can detect minus a few other MB RAM.
 ## So better set the amount of minimum RAM a bit lower than your threshold.
 ## By default we use 480 MB below, so a minimum of 500 MB RAM will load a
