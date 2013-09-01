@@ -14,7 +14,7 @@ nameserver 127.0.0.1
 ## If you do *not* want Whonix-Gateway's own DNS
 ## (This has nothing to do with Whonix-Workstation's DNS.)
 ## to be routed through Tor, but using clearnet DNS,
-## use the Virtual Box DHCP server below
+## use the VirtualBox DHCP server below
 ## and comment out the torified DNS server
 ## above.
 #nameserver 10.0.2.3
