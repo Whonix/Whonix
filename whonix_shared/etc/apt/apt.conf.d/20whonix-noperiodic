@@ -16,7 +16,7 @@
 ## for the configuration of APT. APT includes them in alphabetical order, so that the
 ## last ones can modify a configuration element defined in one of the first ones. [...]
 ##
-## That changes take effect be be verified using:
+## That changes take effect can be verified using:
 ## apt-config dump
 
 APT::Periodic::Update-Package-Lists "0";
