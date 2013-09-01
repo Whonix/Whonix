@@ -5,7 +5,7 @@ source /usr/share/whonix/postinst.d/pre.bsh
 ## Just for users's convenience.
 ## It reduces the required steps for setting up a shared folder.
 ## Also see:
-## https://whonix.org/wiki/VirtualBox_Guest_Additions
+## https://www.whonix.org/wiki/VirtualBox_Guest_Additions
 
 mkdir --parents /mnt/shared
 chmod 777 /mnt/shared
