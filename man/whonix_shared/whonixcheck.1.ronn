@@ -6,7 +6,7 @@ whonixcheck(1) -- checks anonymity and security status in Whonix
 
 ## DESCRIPTION
 Whonixcheck is a tool, which checks the state of many aspects of Whonix, which
-are important for providing anonymity and security.
+is important for providing anonymity and security.
 
 ## EXTENDED DESCRIPTION
 Checks if,
@@ -17,8 +17,8 @@ Checks if,
 Shows,
 
 * Your external IP address(es).
-* Installed Tor Browser version. (Only on Whonix-Workstation.)
-* Latest Tor Browser version. (Only on Whonix-Workstation.)
+* Installed Tor Browser version. (Only on Whonix-Workstation)
+* Latest Tor Browser version. (Only on Whonix-Workstation)
 * Available operating system updates.
 * Installed Whonix version.
 * Latest Whonix version.
@@ -26,8 +26,8 @@ Shows,
 
 Downloads,
 
-* Whonix Important Blog. (Only on Whonix-Workstation.)
-* Whonix Feature Blog. (Only on Whonix-Workstation.)
+* Whonix Important Blog. (Only on Whonix-Workstation)
+* Whonix Feature Blog. (Only on Whonix-Workstation)
 
 This script,
 
@@ -52,7 +52,7 @@ This script,
 `whonixcheck -v`
 
 ## WWW
-https://whonix.org/wiki/Whonixcheck
+https://www.whonix.org/wiki/Whonixcheck
 
 ## AUTHOR
 Written by adrelanos (adrelanos at riseup dot net)
