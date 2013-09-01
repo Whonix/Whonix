@@ -214,7 +214,7 @@ start_vm() {
 
    sudo -u "$USERNAME" VBoxSDL --startvm "$VMNAME"
 
-   : echo "whonix_createvm: Virtual Box terminated without error messages."
+   : echo "whonix_createvm: VirtualBox terminated without error messages."
    : echo "whonix_createvm: This is no guarantee everything went well inside the VM."
 }
 
@@ -924,7 +924,7 @@ hardware_modifications() {
    sudo -u "$USERNAME" VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemFamily"      "System Family"
    sudo -u "$USERNAME" VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemUuid"        "9852bf98-b83c-49db-a8de-182c42c7226b"
 
-   ## TO DO VBOX: Wait for next Virtual Box version.
+   ## TO DO VBOX: Wait for next VirtualBox version.
    ## Not yet available.
    ## http://wiki.ubuntuusers.de/Dualboot-Windows_virtualisieren
    #sudo -u "$USERNAME" VBoxManage setextradata "$VMNAME" "VBoxInternal/Devices/pcbios/0/Config/DmiChassisAssetTag" "<EMPTY>"
