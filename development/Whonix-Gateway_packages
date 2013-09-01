@@ -21,7 +21,7 @@ torsocks
 obfsproxy
 
 ## DHCP ## dependency
-## required to obtain and IP from Virtual Box DHCP
+## required to obtain and IP from VirtualBox DHCP
 dhcp3-client
 isc-dhcp-client
 
