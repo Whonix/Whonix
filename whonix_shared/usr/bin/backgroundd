@@ -33,7 +33,7 @@ Whonix. The more you learn about Whonix and anonymity, the safer you can become.
 
 If your host has little RAM, you are advised to reduce Whonix-Gateway RAM to 128 MB. No graphical desktop environment will be started in that case.
 A Whonix-Gateway without graphical desktop environment works as good as one with, it is just not that convenient. If you want, you can sometimes start a graphical desktop
-environment and sometimes only a terminal by toggling how much RAM is available to Whonix-Gateway. Documentation about this feature: https://whonix.org/wiki/Desktop
+environment and sometimes only a terminal by toggling how much RAM is available to Whonix-Gateway. Documentation about this feature: https://www.whonix.org/wiki/Desktop
 
 If you want to change the keyboard layout from the default \"us\" to something else:
 Start menu button -> Applications -> Settings -> System Settings -> input devices -> layout -> add yours and remove default one -> apply -> Done.
