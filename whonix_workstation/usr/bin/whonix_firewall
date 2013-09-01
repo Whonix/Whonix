@@ -28,7 +28,7 @@ if [ ! "$WORKSTATION_FIREWALL" = "1" ]; then
    : "## There is a second, extra firewall for Whonix-Workstation."
    : "## It is disabled by default."
    : "## Experts should read the design notes in"
-   : "## its man page  and make an informed decision."
+   : "## its man page and make an informed decision."
    : "##    man whonix_firewall"
    : "##"
    : "########################################################"
