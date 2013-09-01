@@ -155,7 +155,7 @@ prepare-build-machine() {
       ##################################################################
       ## - for grml-debootstrap
       ##      grml-debootstrap kpartx mksh parted qemu-utils
-      ## - for creating Virtual Box VM images
+      ## - for creating VirtualBox VM images
       ##      virtualbox   
       apt-get install --yes \
          qemu-utils \
@@ -165,7 +165,7 @@ prepare-build-machine() {
          mksh
          
       #######################################################################
-      ## Build Dependencies for creating Virtual Box Images (.vdi and .ova) #
+      ## Build Dependencies for creating VirtualBox Images (.vdi and .ova) #
       #######################################################################         
       apt-get install --yes \
          virtualbox
