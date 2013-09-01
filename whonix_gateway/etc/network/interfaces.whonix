@@ -14,7 +14,7 @@ auto lo
 iface lo inet loopback
 
 ## When using Virtual Machines (not Physical Isolation),
-## - eth0 is the NAT interface to communicate with Virtual Box
+## - eth0 is the NAT interface to communicate with VirtualBox
 ## - used to get access to the internet
 ## - it will get an IP address such as 10.0.2.15
 ## - Thus, the this IP address can NOT cause conflicts
@@ -25,7 +25,7 @@ iface eth0 inet dhcp
 
 ## Or alternatively we could use...
 ## (Out commented by default.)
-## NAT interface to communicate with Virtual Box. STATIC
+## NAT interface to communicate with VirtualBox. STATIC
 ##
 ## Not sure if we should use static network for the NAT
 ## adapter.
