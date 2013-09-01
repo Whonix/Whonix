@@ -31,7 +31,7 @@ Boot environment based on RAM can be configured in /etc/whonix.d/
 ########################
 
 Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read and apply Whonix Pre Install Advice:
-https://whonix.org/wiki/Pre_Install_Advice
+https://www.whonix.org/wiki/Pre_Install_Advice
 
 ################
 ## DISCLAIMER ##
@@ -60,7 +60,7 @@ Boot environment based on RAM can be configured in /etc/whonix.d/
 ########################
 
 Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read and apply Whonix Pre Install Advice:
-https://whonix.org/wiki/Pre_Install_Advice
+https://www.whonix.org/wiki/Pre_Install_Advice
 
 ################
 ## DISCLAIMER ##
