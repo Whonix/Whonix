@@ -2,7 +2,7 @@
 
 source /usr/share/whonix/postinst.d/pre.bsh
 
-## Just for users's convenience.
+## Just for users' convenience.
 ## It reduces the required steps for setting up a shared folder.
 ## Also see:
 ## https://www.whonix.org/wiki/VirtualBox_Guest_Additions
