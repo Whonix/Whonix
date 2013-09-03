@@ -861,7 +861,7 @@ sdwdate_main() {
          ## Found, skip reading config folder.
          true
       else
-         ## Not found, lets read config folder.
+         ## Not found, let's read config folder.
          sdwdate_read_config_folder
       fi
 
