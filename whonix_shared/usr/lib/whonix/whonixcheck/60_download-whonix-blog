@@ -128,7 +128,7 @@ parse_blog() {
       return 0
    fi 
   
-   ## Lets make just one success message, not two.
+   ## Let's make just one success message, not two.
    if [ "$BLOG_SUCCESS" = "2" ]; then
       local MSG="Whonix Blog Download Result: Success."
       $output ${output_opts[@]} --channel "both" --type "info" --title "$TITLE" --message "$MSG"
