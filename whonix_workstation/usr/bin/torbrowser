@@ -661,9 +661,9 @@ tb_verify() {
 
    debug "INFO:
 ## Verifying GPG signature.
-## Not using the users GPG keyring also ensures, that the key can be only
+## Not using the user's GPG keyring also ensures, that the key can be only
 ## signed by the GPG keys we added. Signatures from random people from the
-## users keyring will be ignored.
+## user's keyring will be ignored.
 "
 
    TB_GPG_VERIFY_RETURN="0"
