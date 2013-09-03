@@ -319,7 +319,7 @@ progress_bar() {
    if [ "$ps_return" = "0" ]; then
       ## Zenity pid is still active.
 
-      ## For extra security against freezing while trying to write to a non-existing pipe, lets use timeout.
+      ## For extra security against freezing while trying to write to a non-existing pipe, let's use timeout.
       ## || true to catch an error if the pipe no longer exists.
       timeout 1 /bin/bash -c "echo "$1" | sudo -u user tee "$FIFO" > /dev/null" || true
    fi
@@ -567,7 +567,7 @@ show_output() {
          fi
          
       else
-         ## Haven't even got a waiting message yet. Lets make our own, unless we already has a waiting message.
+         ## Haven't even got a waiting message yet. Let's make our own, unless we already have a waiting message.
          if [ ! "$HAD_WAITING_MESSAGE" = "1" ]; then
             if [ ! "$ONE_TIME_WAITING_ECHO" = "1" ]; then
                echo "Waiting for results from $IDENTIFIER..."
@@ -730,7 +730,7 @@ forget_messages() {
          if [ "$ps_return" = "0" ]; then
             ## Zenity pid is still active.
 
-            ## For extra security against freezing while trying to write to a non-existing pipe, lets use timeout.
+            ## For extra security against freezing while trying to write to a non-existing pipe, let's use timeout.
             ## || true to catch an error if the pipe no longer exists.
             timeout 1 /bin/bash -c "echo "100" | sudo -u user tee "$FIFO" > /dev/null" || true
          fi
