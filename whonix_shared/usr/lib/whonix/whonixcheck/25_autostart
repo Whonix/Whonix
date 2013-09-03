@@ -39,7 +39,7 @@ check_autostart() {
       if [ "$NOSLEEP" = "1" ]; then
          return 0
       else
-         local temp="$SCRIPTNAME has not completed for more than one day. Running $SCRIPTNAME again in "$DELAY" seconds...
+         local temp="$SCRIPTNAME has not been completed for more than one day. Running $SCRIPTNAME again in "$DELAY" seconds...
 
 You can also cancel waiting and manually start $SCRIPTNAME right away."
          
