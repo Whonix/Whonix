@@ -662,7 +662,7 @@ tb_verify() {
    debug "INFO:
 ## Verifying GPG signature.
 ## Not using the users GPG keyring also ensures, that the key can be only
-## singed by the GPG keys we added. Signatures from random people from the
+## signed by the GPG keys we added. Signatures from random people from the
 ## users keyring will be ignored.
 "
 
