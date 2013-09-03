@@ -183,7 +183,7 @@ iptables -A OUTPUT -p udp --dport 53 --dst 192.168.0.10 -j ACCEPT
 ##     From 192.168.0.11 icmp_seq=1 Destination Port Unreachable
 ##     0 packets transmitted, 0 received, +100 errors
 ##
-## The next rule ensures, that only tcp can leave and archives the desired result from (4).
+## The next rule ensures, that only tcp can leave and achieves the desired result from (4).
 iptables -A OUTPUT ! -p tcp -j REJECT --reject-with icmp-port-unreachable
 
 ## Allow full outgoing connection but no incoming stuff.
