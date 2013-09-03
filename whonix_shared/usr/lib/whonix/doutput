@@ -570,7 +570,7 @@ show_output() {
          ## Haven't even got a waiting message yet. Lets make our own, unless we already has a waiting message.
          if [ ! "$HAD_WAITING_MESSAGE" = "1" ]; then
             if [ ! "$ONE_TIME_WAITING_ECHO" = "1" ]; then
-               echo "Waiting for results form $IDENTIFIER..."
+               echo "Waiting for results from $IDENTIFIER..."
                ONE_TIME_WAITING_ECHO="1"
             fi
          fi         
