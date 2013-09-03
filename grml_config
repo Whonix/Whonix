@@ -47,7 +47,7 @@
 # Default: no default.
 # ISO='file:/mnt/iso/debian/'
 
-# If /etc/apt/sources.list should NOT be build on the fly, this
+# If /etc/apt/sources.list should NOT be built on the fly, this
 # options allows providing a separate apt sources.list file via
 # /etc/debootstrap/etc/apt/sources.list
 # KEEP_SRC_LIST='yes'
