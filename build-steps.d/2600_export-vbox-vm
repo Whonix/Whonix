@@ -18,19 +18,23 @@ export-vbox-vm() {
 
    if [ "$VMNAME" = "Whonix-Gateway" ]; then
       local TEXT="
-########################
-## HOSTS WITH LOW RAM ##
-########################
+##############
+## SNAPSHOT ##
+##############
 
-If your host computer has 2GB RAM or less, set the virtual machine's RAM for Whonix-Gateway to 128MB to automatically boot into a command-line environment. The Gateway will work normally, and you can configure it via the command-line. If you need a graphical environment, temporarily increase RAM to 512MB to boot to a desktop.
+It is important to take a snapshot right after importing is complete. You can restore the original snapshot whenever you need a clean state.
 
-Boot environment based on RAM can be configured in /etc/whonix.d/
+##############
+## LOW RAM? ##
+##############
 
-########################
-## PRE INSTALL ADVICE ##
-########################
+If your computer has 2GB or less RAM, set the RAM for Whonix-Gateway to 128MB to automatically boot into a command-line environment. The Gateway will work normally, and you can configure it via the command-line. If you need a graphical environment, temporarily increase RAM to 512MB to boot to a desktop.
 
-Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read and apply Whonix Pre Install Advice:
+#####################
+## SECURITY ADVICE ##
+#####################
+
+Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read this page:
 https://www.whonix.org/wiki/Pre_Install_Advice
 
 ################
@@ -39,7 +43,7 @@ https://www.whonix.org/wiki/Pre_Install_Advice
 
 There is no magic pill for anonymity. The more you learn about Whonix, Tor, and threats to your privacy, the safer you can become.
 
-Whonix is produced independently of, and carries no guarantee from, The Tor Project.
+Whonix is produced independently of, and carries no guarantee from The Tor Project.
 
 Whonix is experimental software. Do not rely on it for strong anonymity.
 "
@@ -47,28 +51,32 @@ Whonix is experimental software. Do not rely on it for strong anonymity.
       local TEXT="
 # For internet access, Whonix-Workstation requires that Whonix-Gateway be running. #
 
-########################
-## HOSTS WITH LOW RAM ##
-########################
+##############
+## SNAPSHOT ##
+##############
 
-If your host computer has less than 2GB of RAM, you can lower the RAM for Whonix-Workstation to 512MB. Performance will suffer, but an advanced user can install a lighter desktop environment or use a Custom-Whonix-Workstation. Setting RAM to less than 512MB will boot to a command-line environment.
+It is important to take a snapshot right after importing is complete. You can restore the original snapshot whenever you need a clean state.
 
-Boot environment based on RAM can be configured in /etc/whonix.d/
+##############
+## LOW RAM? ##
+##############
 
-########################
-## PRE INSTALL ADVICE ##
-########################
+If your computer has less than 2GB RAM, you can lower the RAM for Whonix-Workstation to 512MB. Performance will suffer, but an advanced user can install a lighter desktop environment. Setting RAM to less than 512MB will boot to a command-line environment.
 
-Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read and apply Whonix Pre Install Advice:
+#####################
+## SECURITY ADVICE ##
+#####################
+
+Whonix with its default settings may provide better protection than Tor alone. You can make it even more secure. It is recommended to read this page:
 https://www.whonix.org/wiki/Pre_Install_Advice
 
 ################
 ## DISCLAIMER ##
 ################
 
-There is no magic pill for anonymity. The more you learn about Whonix, Tor, and threats your privacy, the safer you can become.
+There is no magic pill for anonymity. The more you learn about Whonix, Tor, and threats to your privacy, the safer you can become.
 
-Whonix is produced independently of, and carries no guarantee from, The Tor Project.
+Whonix is produced independently of, and carries no guarantee from The Tor Project.
 
 Whonix is experimental software. Do not rely on it for strong anonymity.
 "
