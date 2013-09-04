@@ -77,7 +77,7 @@ Please run whonixcheck on Whonix-Gateway."
       ## Exit 0, so sdwdate will continue.
       exit "0"
    else
-      ## Echo message, so sdwdate can integrate it into it's log.
+      ## Echo message, so sdwdate can integrate it into its log.
       echo "$MSG"
       
       ## Exit 2, so sdwdate will wait until this has been fixed.

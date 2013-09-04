@@ -29,7 +29,7 @@ check_stream_isolation() {
       return 0
    fi
 
-   ## Lets compare TransPort with SocksPort.
+   ## Let's compare TransPort with SocksPort.
    if [ "$IP_TRANS_PORT" = "$IP_SOCKS_PORT" ]; then
       ## TODO: Stream Isolation should be tested on Whonix-Gateway using Tor's Control Port.
       

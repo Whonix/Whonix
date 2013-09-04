@@ -149,8 +149,8 @@ SOCKS_PORT_TBB_DOWNLOAD="9115"
 DOC_LINK="https://www.whonix.org/wiki/Documentation"
 CONTRIBUTE_LINK="https://www.whonix.org/wiki/Contribute"
 DONATE_LINK="https://www.whonix.org/wiki/Donate"
-FORUM_LINK="https://whonix.org/wiki/Special:AWCforum/"
-MAILINGLIST_LINK="https://whonix.org/cgi-bin/mailman/listinfo/"
+FORUM_LINK="https://www.whonix.org/wiki/Special:AWCforum/"
+MAILINGLIST_LINK="https://www.whonix.org/cgi-bin/mailman/listinfo/"
 IMPORTANTBLOG_LINK="https://anonymousoperatingsystem.wordpress.com/category/important/"
 FEATUREBLOG_LINK="https://anonymousoperatingsystem.wordpress.com/"
 
@@ -661,9 +661,9 @@ tb_verify() {
 
    debug "INFO:
 ## Verifying GPG signature.
-## Not using the users GPG keyring also ensures, that the key can be only
-## singed by the GPG keys we added. Signatures from random people from the
-## users keyring will be ignored.
+## Not using the user's GPG keyring also ensures, that the key can be only
+## signed by the GPG keys we added. Signatures from random people from the
+## user's keyring will be ignored.
 "
 
    TB_GPG_VERIFY_RETURN="0"

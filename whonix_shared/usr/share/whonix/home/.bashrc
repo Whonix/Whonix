@@ -130,7 +130,7 @@ if [ "$var" = "0" ]; then
 fi
 
 ## We run in a terminal emulator.
-## Lets greet it with /etc/motd.
+## Let's greet it with /etc/motd.
 echo "$(cat /etc/motd)"
 
 ## End of Whonix /home/user/.bashrc

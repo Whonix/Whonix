@@ -8,7 +8,7 @@
 ## Create your own file /etc/apt/apt.conf.d/90something instead.
 
 ## /usr/bin/apt-get is forced through its own SocksPort
-## by uwtwrapper for for Stream Isolation.
+## by uwtwrapper for Stream Isolation.
 
 ## Below are possible optional configurations...
 

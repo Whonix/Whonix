@@ -46,9 +46,9 @@ already_commented_in="0"
 while read LINE; do
    if [ "$LINE" = 'DisableNetwork 0' ]; then
       already_commented_in="1"
-      dialog --title "Success!" --msgbox '"DisableNetwork 0" was already commented in in /etc/tor/torrc. Tor should be activated.
+      dialog --title "Success!" --msgbox '"DisableNetwork 0" was already commented in /etc/tor/torrc. Tor should be activated.
 
-Note: whonixsetup activates Tor by commenting in "DisableNetwork 0" in /etc/tor/torrc. There is no need to run it multiple times, and it probably not the cause of network problems. You can manually check if "DisableNetwork 0" has been commented in in /etc/tor/torrc.
+Note: whonixsetup activates Tor by commenting in "DisableNetwork 0" in /etc/tor/torrc. There is no need to run it multiple times, and it probably not the cause of network problems. You can manually check if "DisableNetwork 0" has been commented in /etc/tor/torrc.
 
 Will try to reload Tor now and check its status afterward...
 ' 640 480

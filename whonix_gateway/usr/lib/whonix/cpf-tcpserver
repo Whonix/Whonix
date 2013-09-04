@@ -136,7 +136,7 @@ while read -r; do
    lie_when="GETINFO net/listeners/socks"
    
    if [ "${cleaned_reply,,}" = "${lie_when,,}" ]; then
-      true "Got \"$cleaned_reply\" lets lie and forge the answer to make Tor Button happy."
+      true "Got \"$cleaned_reply\" let's lie and forge the answer to make Tor Button happy."
       write_back '250-net/listeners/socks="127.0.0.1:9150"'
       continue
    fi   

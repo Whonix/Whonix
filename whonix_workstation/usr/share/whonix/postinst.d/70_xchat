@@ -2,14 +2,14 @@
 
 source /usr/share/whonix/postinst.d/pre.bsh
 
-## Not overwriting the users XChat data folder,
+## Not overwriting the user's XChat data folder,
 ## important once this may be run as postinst script.
 if [ -d /home/user/.xchat2 ]; then
    true "INFO: Skipping $own_filename, because /home/user/.xchat2 already exists."
    exit 0
 fi
 
-## Ok, this script runs for the very first time. The users XChat data
+## Ok, this script runs for the very first time. The user's XChat data
 ## folder does not exist yet. Therefore it's safe to create it.
 
 ## Using xchat-reset to copy privacy hardened configuration files from
