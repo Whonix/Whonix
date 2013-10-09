@@ -5,7 +5,7 @@
 [Desktop Entry]
 Type=Application
 Exec=torbrowser --mailinglist
-Name=Developer Mailing List in Tor Browser
+Name=Developer Mailing List
 GenericName=Whonix Developer Mailing List
 Categories=Network;
 Icon=/usr/share/whonix/icons/mailinglist.ico

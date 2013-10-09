@@ -5,7 +5,7 @@
 [Desktop Entry]
 Type=Application
 Exec=torbrowser --doc
-Name=Whonix DOCUMENTATION Online in Tor Browser
-GenericName=Whonix DOCUMENTATION
+Name=Whonix Documentation Online
+GenericName=Whonix Documentation Online
 Categories=Network;
 Icon=/usr/share/whonix/icons/readme.ico

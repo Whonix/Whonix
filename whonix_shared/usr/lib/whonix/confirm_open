@@ -47,14 +47,14 @@ main_function() {
 
       if [ ! "$EDITOR" = "" ]; then
          local open_in_tool_bin="$EDITOR"
-         local open_in_tool_bin_pretty_name="\$EDITOR $EDITOR"
+         local open_in_tool_bin_name="\$EDITOR $EDITOR"
       ## What other useful condition could we check to determine the default editor?
-      elif [ "1" = "2" ]; then
-         local open_in_tool_bin="?"
-         local open_in_tool_bin_pretty_name="?"
+      #elif [ "1" = "2" ]; then
+         #local open_in_tool_bin="?"
+         #local open_in_tool_bin_name="?"
       else
          local open_in_tool_bin="kwrite"
-         local open_in_tool_bin_pretty_name="KWrite"
+         local open_in_tool_bin_name="KWrite"
       fi
 
       local open_in_tool_extra_opts=""
@@ -62,7 +62,7 @@ main_function() {
       if [ "$is_file" = "1" ]; then
          ## We could easily change our mind and ask for confirmation.
          local title="Whonix Confirm Open"
-         #local msg="${1+"$@"} will be opened in $open_in_tool_bin_pretty_name. Continue?"
+         #local msg="${1+"$@"} will be opened in $open_in_tool_bin_name. Continue?"
 
          local open_in_tool_return="0"
          $open_in_tool_bin $open_in_tool_extra_opts ${1+"$@"} >/dev/null 2>/dev/null || { local open_in_tool_return="$?" ; true; };
@@ -79,25 +79,26 @@ Use Tor Browser under Whonix-Workstation to browse the internet."
    elif [ -f "/usr/share/whonix/whonix_workstation" ]; then
       local icon="/usr/share/whonix/icons/whonix.ico"
       local open_in_tool_bin="torbrowser"
-      local open_in_tool_bin_pretty_name="Tor Browser"
+      local open_in_tool_bin_name="Tor Browser"
       local open_in_tool_extra_opts="--new-window"
       local title="Whonix Confirm Open"
 
-      local temp="\"${1+"$@"}\""
+      local temp="${1+"$@"}"
       if [ "$temp" = "" ] || [ "$temp" = " " ]; then
-         local temp="Default homepage"
-      fi
+         local msg="Do you want to open $open_in_tool_bin_name?"
+      else
+         if [ "$is_file" = "1" ]; then
+            local type="file"
+         else
+            local type="link"
+         fi
+         local msg="The following $type will be opened in $open_in_tool_bin_name. Continue?
 
-      local msg="Will be opened in $open_in_tool_bin_pretty_name. Continue?
-
-Be careful if $open_in_tool_bin_pretty_name is already running as your activities might get linked.
-
-
-
-
+Be careful if $open_in_tool_bin_name is already running as your activities might get linked.
 
 $temp
 "
+      fi
    else
       local icon="/usr/share/whonix/icons/whonix.ico"
       local title="Whonix Confirm Open ERROR"

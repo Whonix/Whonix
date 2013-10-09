@@ -5,7 +5,7 @@
 [Desktop Entry]
 Type=Application
 Exec=torbrowser --contribute
-Name=Contribute Page in Tor Browser
+Name=Contribute to Whonix
 GenericName=Whonix Contribute Page
 Categories=Network;
 Icon=/usr/share/whonix/icons/contribute.ico

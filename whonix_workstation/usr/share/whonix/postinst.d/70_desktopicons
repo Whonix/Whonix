@@ -31,6 +31,8 @@ sudo -u user ln -s /usr/share/applications/whonix/whonix-contribute.desktop /hom
 
 sudo -u user ln -s /usr/share/applications/whonix/whonix-mailinglist.desktop /home/user/Desktop || true
 
+sudo -u user ln -s /usr/share/applications/whonix/whonix-torbrowser.desktop /home/user/Desktop || true
+
 sudo -u user ln -s /usr/share/applications/whonix/whonix-torbrowser_update.desktop /home/user/Desktop || true
 
 sudo -u user ln -s /usr/share/applications/whonix/whonix-documentation.desktop /home/user/Desktop || true
