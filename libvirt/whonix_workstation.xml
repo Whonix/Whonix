@@ -13,8 +13,8 @@
     <pae/>
   </features>
   <clock offset='utc'>
-    <timer name='kvmclock' present='no'/>
     <timer name='rtc' tickpolicy='catchup' track='guest'/>
+    <timer name='kvmclock' present='no'/>
     <timer name='pit' tickpolicy='no'/>
     <timer name='hpet' present='no'/>
   </clock>
