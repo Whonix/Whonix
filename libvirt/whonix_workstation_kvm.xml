@@ -1,5 +1,5 @@
 <domain type='kvm'>
-  <name>Whonix_Workstation</name>
+  <name>Whonix_Workstation_KVM</name>
   <memory unit='KiB'>1048576</memory>
   <currentMemory unit='KiB'>1048576</currentMemory>
   <vcpu placement='static'>1</vcpu>
