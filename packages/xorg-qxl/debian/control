@@ -1,0 +1,18 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: xorg-qxl
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), faketime, genmkfile
+Homepage: https://github.com/Whonix/xorg-qxl
+Vcs-Browser: https://github.com/Whonix/xorg-qxl
+Vcs-Git: https://github.com/Whonix/xorg-qxl.git
+Standards-Version: 3.9.6
+
+Package: xorg-qxl
+Architecture: all
+Depends: ${misc:Depends}
+Description: This package optimizes the QXL Xorg driver's settings for better UI rendering inside VMs.
