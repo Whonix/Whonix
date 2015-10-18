@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_installchangelogs:
+	dh_installchangelogs changelog.upstream upstream
