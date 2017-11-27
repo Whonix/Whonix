@@ -1,0 +1,5 @@
+dracut-live-patches (3:0.1-2) unstable; urgency=low
+
+  * Initial release.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 14 Aug 2017 09:57:06 +0000

@@ -1,0 +1,82 @@
+#!/bin/bash
+
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+if [ -f /usr/lib/pre.bsh ]; then
+   source /usr/lib/pre.bsh
+fi
+
+set -e
+
+true "
+#####################################################################
+## INFO: BEGIN: $DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME $@
+#####################################################################
+"
+
+true "INFO: debhelper beginning here."
+
+#DEBHELPER#
+
+## https://phabricator.whonix.org/T377
+## Debian has no update-grub trigger yet:
+## https://bugs.debian.org/481542
+#rm /boot/initr*
+kernel_version=$(ls /lib/modules)
+
+for i in $kernel_version; do
+
+dracut /boot/initrd.img-$i $i || \
+      echo "$DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME ERROR: Running \
+'dracut' failed with exit code $?. $DPKG_MAINTSCRIPT_PACKAGE is most \
+likely only the trigger, not the cause. Unless you know this is not an issue, \
+you should fix running 'dracut', otherwise your system might no longer \
+boot." >&2
+
+done
+
+
+if command -v update-grub >/dev/null 2>&1; then
+   update-grub || \
+      echo "$DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME ERROR: Running \
+'update-grub' failed with exit code $?. $DPKG_MAINTSCRIPT_PACKAGE is most \
+likely only the trigger, not the cause. Unless you know this is not an issue, \
+you should fix running 'update-grub', otherwise your system might no longer \
+boot." >&2
+fi
+
+true "INFO: Done with debhelper."
+
+true "
+#####################################################################
+## INFO: END  : $DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME $@
+#####################################################################
+"
+
+kernel_version=$(ls /lib/modules)
+
+for i in $kernel_version; do
+
+dracut /boot/initrd.img-$i $i || \
+      echo "$DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME ERROR: Running \
+'dracut' failed with exit code $?. $DPKG_MAINTSCRIPT_PACKAGE is most \
+likely only the trigger, not the cause. Unless you know this is not an issue, \
+you should fix running 'dracut', otherwise your system might no longer \
+boot." >&2
+
+done
+
+
+if command -v update-grub >/dev/null 2>&1; then
+   update-grub || \
+      echo "$DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME ERROR: Running \
+'update-grub' failed with exit code $?. $DPKG_MAINTSCRIPT_PACKAGE is most \
+likely only the trigger, not the cause. Unless you know this is not an issue, \
+you should fix running 'update-grub', otherwise your system might no longer \
+boot." >&2
+fi
+
+## Explicitly "exit 0", so eventually trapped errors can be ignored.
+exit 0
