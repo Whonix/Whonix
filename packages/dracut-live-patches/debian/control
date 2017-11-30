@@ -1,0 +1,22 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: dracut-live-patches
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), genmkfile, config-package-dev, ruby-ronn
+Homepage: https://github.com/Whonix/dracut-live-patches
+Vcs-Browser: https://github.com/Whonix/dracut-live-patches
+Vcs-Git: https://github.com/Whonix/dracut-live-patches.git
+Standards-Version: 3.9.8
+
+Package: dracut-live-patches
+Architecture: all
+Depends: dracut, dracut-core, ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Patches to get a dracut (live) system running
+ .
+ Do not remove, metapackages depend on this package.
