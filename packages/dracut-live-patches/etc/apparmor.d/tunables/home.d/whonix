@@ -1,0 +1,2 @@
+@{HOMEDIRS}+=/overlayfs/home/
+@{HOMEDIRS}+=/rw/home/
