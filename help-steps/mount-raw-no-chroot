@@ -1,0 +1,78 @@
+#!/bin/bash
+
+## Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+set -x
+set -e
+
+true "INFO: Currently running script: $BASH_SOURCE $@"
+
+MYDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+source "$MYDIR/pre"
+source "$MYDIR/colors"
+source "$MYDIR/variables"
+
+error_handler_mount-raw() {
+   : echo "
+${red}${bold}BASH_COMMAND${reset}: $BASH_COMMAND
+${red}${bold}ERROR $BASH_SOURCE: | caller: $(caller)${reset}
+"
+   exit 1
+}
+
+mount_raw_nochroot() {
+   trap "error_handler_mount-raw" ERR INT TERM
+
+   if [ "$WHONIX_BUILD_MOUNT_RAW_FILE" = "" ]; then
+      local img="$binary_image_raw"
+   else
+      local img="$WHONIX_BUILD_MOUNT_RAW_FILE"
+   fi
+
+   ## Debugging.
+   losetup --all
+   sync
+
+   sleep 2 &
+   wait "$!"
+
+   ## Better not use this, because this can lead to a kpartx bug:
+   ## "ioctl: LOOP_CLR_FD: Device or resource busy"
+   ## Difficult to reproduce.
+   ## Debugging.
+   #kpartx -l -s -v "$img"
+   #sync
+
+   local kpartx_output a b device
+   kpartx_output="$(kpartx -a -s -v "$img" 2>&1)"
+   sync
+
+   if [ "$kpartx_output" = "" ]; then
+      local msg="kpartx did not output anything."
+      error "$msg"
+   fi
+
+   ## Debugging.
+   losetup --all
+   sync
+
+   read a b device _ <<< "$kpartx_output"
+   dev_mapper_device="/dev/mapper/$device"
+   export dev_mapper_device
+
+}
+
+
+main (){
+   root_check
+   if [ "$ANON_BUILD_INSTALL_TO_ROOT" = "1" ]; then
+      true "${green}INFO: Skipping script, because ANON_BUILD_INSTALL_TO_ROOT=1: $BASH_SOURCE${reset}"
+      exit 0
+   else
+      mount_raw_nochroot
+   fi
+}
+
+main "$@"
